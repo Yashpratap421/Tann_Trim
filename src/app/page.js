@@ -10,11 +10,11 @@ const Womens = () => {
 
 
     return (
-        <div className='h-[73vh] bg-gray-950'>
+        <div className='h-[73vh]'>
             <p className=' px-4 py-2 flex justify-end cursor-pointer '>
                 <span className='text-[16px] text-white font-medium px-1'>{data.length}</span>
                 <span className='px-1'>Products </span><MdOutlineIosShare className="font-bold text-[16px] " /></p>
-            <div className='hide-scrollbar h-[95%] w-[100%] gap-7 px-6 py-2 pb-4 flex flex-wrap overflow-y-scroll bg-gray-950'>
+            <div className='hide-scrollbar h-[95%] w-[100%] gap-7 px-6 py-2 pb-4 flex flex-wrap overflow-y-scroll'>
                 {data?.length > 0 ? (
                     data.map((item) => (
                         <ProductCard key={item.id} product={item} />

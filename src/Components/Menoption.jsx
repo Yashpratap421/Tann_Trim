@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 const Menoption = () => {
   return (
-    <div className='h-[10vh] px-5 py-3 bg-[#232323] flex gap-12'>
-      <h1 className='text-[18px] font-[600] text-white border-r-2 pr-4 border-amber-300 justify-center items-center'><p>Men's</p>
+    <div className='h-[10vh] px-5 py-3 flex gap-12'>
+      <h1 className='text-[18px] font-[600] text-white border-r-2 pr-4 border-green-600  justify-center items-center'><p>Men's</p>
       <p>Cloths</p>
       
       </h1>

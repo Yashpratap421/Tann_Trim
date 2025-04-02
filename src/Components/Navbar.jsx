@@ -15,9 +15,9 @@ const Navbar = () => {
   const isActive = (route) => pathname === route; // ✅ Fixed function
 
   return (
-    <div className={`h-[17vh] bg-[#171717] ${openSans.className}`}>
+    <div className={`h-[17vh] ${openSans.className}`}>
       <div className="bg-black w-full h-[8vh] px-5 py-1 flex items-center justify-between">
-        <h1 className="text-2xl py-2 pb-2 pt-2 text-gray-50 font-thin tracking-[18px]">
+        <h1 className="text-[22px] py-2 pb-2 pt-2 text-gray-50 font-sans tracking-[10px]">
           TANN TRIM
         </h1>
         <ul className="flex items-center gap-5">
@@ -36,21 +36,21 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <p className="flex justify-center items-center gap-7 pb-1 mt-3.5 text-gray-200 font-medium ">
+      <p className="flex justify-center items-center gap-7 pb-1 mt-3.5 text-gray-100 font-medium ">
         {[
           { label: "ALL", path: "/" },
           { label: "Men's Cloth", path: "/mencloth" },
           { label: "Women's Cloth", path: "/womencloth" },
-          { label: "Electronic Device", path: "/electronic" },
-          { label: "Jewelery", path: "/jewelery" },
+          { label: "Electronic's Device", path: "/electronic" },
+          { label: "Jewellery", path: "/jewelery" },
         ].map(({ label, path }) => (
           <Link key={path} href={path} passHref>
             <span
-              className={`relative text-[16px] font-medium transition-all duration-300 pb-2 px-2
-                ${isActive(path) ? "text-yellow-400" : "text-white"}
+              className={`relative text-[16px] font-normal transition-all duration-300 pb-2 px-2
+                ${isActive(path) ? "text-green-400" : "text-white"}
                 before:absolute before:left-0 before:bottom-0 before:h-[2px]
-                before:w-0 before:bg-white before:transition-all before:duration-300
-                hover:before:w-full hover:before:left-0 ${isActive(path) ? "before:bg-yellow-400 before:w-full" : ""}`}
+                before:w-0 before:bg-green-400 before:transition-all before:duration-300
+                hover:before:w-full hover:before:left-0 ${isActive(path) ? "before:bg-green-400 before:w-full" : ""}`}
             >
               {label}
             </span>

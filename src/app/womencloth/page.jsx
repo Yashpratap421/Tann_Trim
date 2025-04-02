@@ -16,7 +16,7 @@ const Womens = () => {
     return (
         <>
             <Womenoption />
-            <div className="bg-gray-950 h-[73vh] pb-3">
+            <div className="h-[73vh] pb-3">
                 <p className=' px-4 py-2 flex justify-end cursor-pointer '>
                     <span className='text-[16px] text-white font-medium px-1'>{filteredData.length}</span>
                     <span className='px-1'>Products </span><MdOutlineIosShare className="font-bold text-[16px] " /></p>
