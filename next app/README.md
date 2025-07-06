@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+=======
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+>>>>>>> 122c814d7892a5abae7310f881cd7a8dc2d56733
 
 ## Getting Started
 
@@ -34,3 +38,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<<<<<<< HEAD
+=======
+
+
+
+/*
+Analyzed Figma Design to understand UI structure and styling.
+
+Set up Next.js project and organized files for modularity.
+
+Fetched product data dynamically from the FakeStore API using Axios.
+
+Created reusable components, especially for the product cards.
+
+Styled the UI to match the Figma design while ensuring responsiveness.
+
+Tested functionality locally before deployment.
+
+Committed code to GitHub and deployed the project on Netlify.
+*/
+>>>>>>> 122c814d7892a5abae7310f881cd7a8dc2d56733

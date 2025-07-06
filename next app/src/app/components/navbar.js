@@ -22,7 +22,7 @@ const Navbar = () => {
                     <HiOutlineShoppingBag className='icon'/>
                 </div>
             </div>
-            <div className='nav-bottom'>
+            <div className='nav-bottom '>
                 <Link href={""} className='nav-links'>Bags</Link>
                 <Link href={""} className='nav-links'>Travel</Link>
                 <Link href={""} className='nav-links'>Accesories</Link>

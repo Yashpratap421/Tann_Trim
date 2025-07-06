@@ -12,10 +12,10 @@ const Products = ({ posts = [] }) => {
                 <div className="header-title">
                     <h2>Products</h2>
                     <span className="header-line"></span>
-                    <h2>All Products</h2>
+                   <h2 className="hidden sm:block">All Products</h2>
                 </div>
                 <div className="header-count">
-                    <h1 className="text-[15px]">{posts.length} Products</h1>
+                    <h1 className="text-[15px]">{posts.length} <span className="">Product</span>s</h1>
                     <BiUpload className="header-icon"/>
                 </div>
 
